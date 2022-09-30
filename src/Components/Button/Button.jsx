@@ -7,6 +7,7 @@ import MinusIcon from '../MinusIcon/MinusIcon';
 const Button = (props) => {
   return (
     <button
+      data-testid="btn"
       className={`button${props.value.toString().match(/[-dCX+=÷]/g) ? ' button--grey' : ''}
       ${props.value === 'C' ? ' button--C' : ''}
       ${props.value === 'delete' ? ' button--delete' : ''}

@@ -2,6 +2,7 @@
   "name": "19-react-api",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "homepage": "https://AbrahamTrenyan.github.io/calculator",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

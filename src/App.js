@@ -1,9 +1,9 @@
 import { React, useState } from 'react';
 import './App.css';
-import Container from './Components/Container/Container';
-import Screen from './Components/Screen/Screen';
-import Keyboard from './Components/Keyboard/Keyboard';
-import Button from './Components/Button/Button';
+import Container from './Components/Container/Container.jsx';
+import Screen from './Components/Screen/Screen.jsx';
+import Keyboard from './Components/Keyboard/Keyboard.jsx';
+import Button from './Components/Button/Button.jsx';
 function App() {
   const [buttons] = useState([
     'C',
@@ -95,6 +95,7 @@ function App() {
       <Keyboard>
         {buttons.map((btn, i) => (
           <Button
+          data-testid={btn}
             key={i}
             value={btn}
             onClick={
