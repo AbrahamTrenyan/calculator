@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../../Desafios febrero greelow/17-class-and-functional-components"
+		},
+		{
+			"path": "../../../../../calculator"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "abraham-trenyan",
+		"git.ignoreLimitWarning": true
+	}
+}
